@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "MovilPokedex",
+    "slug": "MovilPokedex",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/pokeball.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/pokeball.png",
+        "backgroundColor": "#464646"
+      }
+    },
+    "web": {
+      "favicon": "./assets/pokeball.png"
+    }
+  }
+}
